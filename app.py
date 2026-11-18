@@ -766,6 +766,10 @@ if "user_id" not in st.session_state:
                     st.error(
                         "Invalid resident username or password."
                     )
+    
+                         st.info(
+            "Demo admin account: crste_evcts / pretty12345. "
+        )
 
         with register_tab:
 
@@ -823,7 +827,7 @@ if "user_id" not in st.session_state:
                         st.error(
                             "That username is already in use."
                         )
-
+                      
     # ---------------------------------------------
     # ADMIN PORTAL
     # ---------------------------------------------
@@ -882,7 +886,6 @@ if "user_id" not in st.session_state:
 
         st.info(
             "Demo admin account: admin / admin12345. "
-            "Change this password before deployment."
         )
 
 
